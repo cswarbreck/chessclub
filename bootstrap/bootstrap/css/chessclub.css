@@ -48,7 +48,7 @@
     background-image: url("https://images.pexels.com/photos/700971/pexels-photo-700971.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
 
     /* Set a specific height */
-    height: 150px;
+    height: 300px;
     margin-top: 40px;
 
     /* Create the parallax scrolling effect */
@@ -130,6 +130,10 @@ nav {
   border-bottom-style:;
 }
 
+nav .btn-group{
+  background-color: rgba(256,256,256,0.7);
+}
+
 .hero{
   min-height: 350px;
   margin-bottom: 40px;
@@ -155,14 +159,15 @@ nav {
 .aboutphoto {
   padding-top: 50px;
 }
-
+/*
 .pagetitle {
   display: block;
-  margin-top:5px;
-  margin-bottom: 50px;
+  margin-top: 5px;
+  margin-left: 15px;
   font-family: 'Helvetica', sans-serif;
 
 }
+*/
 
 .headshot {
 
