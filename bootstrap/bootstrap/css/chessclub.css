@@ -75,9 +75,10 @@
 
 body {
   padding-top:;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   background-color: white ;
   background-image:radial-gradient();
+  font-weight: 500;
 }
 /* striped background
 
@@ -159,7 +160,7 @@ nav {
   display: block;
   margin-top:5px;
   margin-bottom: 50px;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 
 }
 
