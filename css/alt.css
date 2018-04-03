@@ -1,7 +1,8 @@
 
 
 nav {
-  background-color: rgba(256,256,256,0.7) !important;
+  background-color: rgba(256,256,256,1) !important;
+  /*background-color: hsla(210, 29%, 13%, 0.92) !important;*/
   font-size-adjust: auto;
   min-height: 3.5rem;
   border-bottom-style:;
@@ -9,7 +10,7 @@ nav {
 
 body {
   padding-top: 3.5rem;
-  ;
+  font-style: Helvetica, sans-serif !important;
 }
 
 .hero {
@@ -17,7 +18,7 @@ body {
 }
 
 .dropdown-menu {
-  background-color: rgba(256,256,256,0.7) !important;
+  background-color: rgba(256,256,256,1) !important;
   margin-top: 0.6rem !important;
 }
 
@@ -33,11 +34,31 @@ body {
 
     /* Set a specific height */
     height: 400px;
-    margin-top: ;
+    margin-bottom:;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/700971/pexels-photo-700971.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
+
+    /* Set a specific height */
+    height: 8rem;
+    margin-top: 8rem;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+  width: 60rem;
 }
