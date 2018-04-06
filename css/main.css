@@ -7,9 +7,9 @@
 }
 
 nav {
-  /*background-color: rgba(256,256,256,1) !important;*/
+  background-color: rgba(256,256,256,1) !important;
   /*background-color: hsla(210, 29%, 13%, 0.92) !important;*/
-  background-color: rgba(237, 237, 237, 1) !important;
+  /*background-color: rgba(237, 237, 237, 1) !important;*/
   font-size-adjust: auto;
   min-height: 3.5rem;
   border-bottom-style:;
@@ -18,7 +18,7 @@ nav {
 body {
   padding-top: 3.5rem;
   font-family: 'Lato', sans-serif;
-  background-color:#ededed;
+  background-color:#fff;
 }
 
 .about{
@@ -32,12 +32,12 @@ body {
 .aboutbody{
   border-width: 3px;
   border-style: double;
-  background-color: #ededed;
+  background-color: #fff;
   margin-top: 6rem;
 }
 
 .abouttitle{
-  background-color: #ededed;
+  background-color: #fff;
   z-index: 15;
 }
 
