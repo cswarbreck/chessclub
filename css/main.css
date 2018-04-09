@@ -7,7 +7,7 @@
 }
 
 nav {
-  background-color: rgba(256,256,256,1) !important;
+  background-color: rgba(255,250,239,1);
   /*background-color: hsla(210, 29%, 13%, 0.92) !important;*/
   /*background-color: rgba(237, 237, 237, 1) !important;*/
   font-size-adjust: auto;
@@ -15,10 +15,12 @@ nav {
   border-bottom-style:;
 }
 
+
 body {
   padding-top: 3.5rem;
   font-family: 'Lato', sans-serif;
-  background-color:#fff;
+  background-color: rgb(255, 250, 239);
+  /*background-color: rgb(251, 247, 245); (pale pinkish)*/
 }
 
 .about{
@@ -32,12 +34,12 @@ body {
 .aboutbody{
   border-width: 3px;
   border-style: double;
-  background-color: #fff;
+  background-color: rgba(255, 250, 239,1);
   margin-top: 6rem;
 }
 
 .abouttitle{
-  background-color: #fff;
+  background-color: rgba(255, 250, 239,0.0001);
   z-index: 15;
 }
 
